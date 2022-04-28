@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "my-dev-app-89ad8": {
+      "hosting": {
+        "angular-course": [
+          "my-dev-app-89ad8"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "my-dev-app-89ad8"
+  }
+}

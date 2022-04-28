@@ -32,7 +32,9 @@
       >
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
-      <span class="logo" routerLink="/">🔥 Angular Course</span>
+      <span class="logo" routerLink="/" routerLinkActive="active"
+        >🔥 Angular Course</span
+      >
       <span class="fill-space"></span>
       <div *ngIf="!(isHandset$ | async)">
         <a mat-button routerLink="/kanban">🍱 Kanban Demo</a>
